@@ -221,7 +221,7 @@ let Lists = React.createClass({
             <Row>
               <Col span="20">
                  <FormItem
-                  label="请输入URL地址："
+                  label="请输入更新频率(秒)："
                   labelCol={{ span: 8 }}
                   wrapperCol={{ span: 16 }}>
                   <InputNumber min={1} step={1} {...getFieldProps('freq', { initialValue: 300 })} />
